@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" type = "text/css" href = "../css/postimage.css"> 
     <title>Image Post</title>
+    <style>
+        
+        body{
+            background-color: rgb(228, 107, 163);
+        }
+        
+    </style>
 </head>
 <body>
         <header>
@@ -25,11 +32,19 @@
             <p>Please fill in the information to create a post.</p>
 
             <form action ="action.php">
-                <p>Title: <input type="text" /></p>
-                <p>Description: </p><textarea rows="4" cols="60">This post is about...</textarea>
-                <p>Image:
+                <label>Title: 
+                    <br><input type="text" /></label>
+                <br><br>
+                <label>Description: 
+                    
+                </label>
+                <br><textarea rows="4" cols="60">This post is about...</textarea>
+                <br>
+                <label>Image:
+                    
                     <input type="file" id="img" name="img" accept="image/*">
-                    </p>
+                </label>
+                <br><br>
                     <label for="tc">Agree to policy to accepte and upload images</label>
                     <input type="checkbox" id="tc" name="tc" required>
                     </a>
