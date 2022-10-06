@@ -1,14 +1,14 @@
 body {
   border: 2px solid rgb(17, 17, 17);
   border-radius: 5px;
-  
+
   text-align: center;
   padding: 10px;
   font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #010d11;
 }
 
 li {
@@ -36,5 +36,8 @@ nav {
     padding: 10px 5px;
     font-size: 1em;
   }
+
+ 
+
 
   

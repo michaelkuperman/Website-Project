@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel = "stylesheet" type = "text/css" href = "../css/login.css"> 
+    <style>
+        
+        body{
+            background-color: rgb(228, 107, 163);
+        }
+        
+    </style>
 </head>
 <body>
         <header>
@@ -21,17 +28,22 @@
                 
             </ul>
         </nav>
+
         <p>Please fill in the information to login.</p>
 
+        
         <form action ="action.php">
-            <label for="username">Username</label>
+
+            <label class = "user"></label>
+            <label for="username">Login</label>
             <input type="text" name="username"
             id="username" placeholder="Username">
-
+            <br>
+            <label class = "pass"></label>
             <label for="password">Password</label>
             <input type="password" name="password"
             id="Password" placeholder="Password">
-
+            <br>
             <input type="button" value="Submit">
             
         </form>
