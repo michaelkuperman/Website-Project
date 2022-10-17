@@ -9,15 +9,13 @@
     <style>
         
         body{
-            background-color: rgb(228, 107, 163);
+            background-color: rgb(44, 74, 172);
         }
         
     </style>
 </head>
 <body>
-        <header>
-            <h1> Login Form </h1>
-        </header>
+        
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -28,14 +26,19 @@
                 
             </ul>
         </nav>
+        <header>
+            <h1> Login Form </h1>
+        </header>
 
-        <p>Please fill in the information to login.</p>
+        <div class="form-container">
+
+       <!--<p>Please fill in the information to login.</p>-->
 
         
         <form action ="action.php">
 
             <label class = "user"></label>
-            <label for="username">Login</label>
+            <label for="username">Username</label>
             <input type="text" name="username"
             id="username" placeholder="Username">
             <br>

@@ -43,9 +43,20 @@ body {
     p {
         border: 3px solid black;
         width: 100%;
-        text-align: center;
       }
      
       h1{
         text-decoration: underline;
       }
+
+      
+      .form-container{
+        width:350px;
+        height:auto;
+        padding: 20px 35px;
+        background-color:rgb(129, 182, 241);
+        border-radius: 10px;
+        box-shadow:0 0 10px 0 #000 ;
+        margin: auto;
+      }
+        
