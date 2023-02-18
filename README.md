@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this repository is to store all the code for your web application. This also includes the history of all commits made and who made them. 
+The purpose of this repository is to store all the code for my web application. This also includes the history of all commits made.
 
 
 # Build/Run Instructions
